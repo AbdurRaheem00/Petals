@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to PETALS</span>
                 <h1>{`Your one-stop for life with`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>"Petals" is your one-stop e-commerce destination for all things related to menstruation. Explore a diverse range of menstrual products, from eco-friendly pads and tampons to reusable menstrual cups, all available for purchase. Beyond shopping, Petals offers a wealth of resources and articles on menstrual health and hygiene. Convenient subscription services and a vibrant community forum make Petals the go-to online marketplace for women looking to make informed choices and shop for high-quality menstrual essentials. Shop with confidence and empower your menstrual experience with Petals.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Let’s get started <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
